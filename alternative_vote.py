@@ -2,6 +2,8 @@
 import csv
 from collections import deque
 
+NUM_OF_CANDIDATES = 8
+
 #run voting rounds
 def vote(candidates):
     winner = None
@@ -11,7 +13,8 @@ def vote(candidates):
     while winner == None:
         print(''.join(['\n\nround ', str(i), ':\n']))
         candidates, winner = aRound(candidates)
-        if min([len(x['voters']) for x in candidates]) == max([len(x['voters']) for x in candidates]):
+        voterCounts = [len(x['voters']) for x in candidates]
+        if min(voterCounts) == max(voterCounts) and len(candidates) > 1:
             return "There has been a draw. Determine winner manually."
         i += 1
     return "Winner: " + winner
@@ -39,14 +42,14 @@ def aRound(candidates):
         if minVotes == 0:
             break
         if len(candidate['voters']) == minVotes:
-            for i, voter in enumerate(deque(candidate['voters'])):
+            for i, _ in enumerate(deque(candidate['voters'])):
                 foundNewCandidate = False
                 while not foundNewCandidate:
                     if len(candidate['voters'][i]) == 0:
                         break
                     newCandidate = candidate['voters'][i].popleft()
                     for candidate2 in candidates:
-                        if candidate2['name'] == newCandidate and newCandidate not in toRemove:
+                        if candidate2['name'] == newCandidate not in toRemove:
                             foundNewCandidate = True
                             candidate2['voters'].append(candidate['voters'][i])
 
@@ -83,7 +86,7 @@ for row in reader:
         rowNum += 1
         continue
     voter = deque()
-    for rank in xrange(1,8):
+    for rank in xrange(1,NUM_OF_CANDIDATES):
         colNum = 0
         for value in row:
             if rowNum == 1 == rank:
