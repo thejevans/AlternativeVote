@@ -1,0 +1,90 @@
+Initial vote:
+
+UMD Physics Makers 5
+
+[Si] Unit 2
+
+Alpha Team Of Makers (ATOM) 4
+
+UMD Physics Hackers 2
+
+Making Physics 1
+
+Making Physics Happen 0
+
+Students Hacking and Making (SHM) 1
+
+Fine-tuners 2
+
+Total: 17
+
+
+round 1:
+
+Making Physics Happen lost
+
+UMD Physics Makers 5
+
+[Si] Unit 2
+
+Alpha Team Of Makers (ATOM) 4
+
+UMD Physics Hackers 2
+
+Making Physics 1
+
+Students Hacking and Making (SHM) 1
+
+Fine-tuners 2
+
+Total: 17
+
+
+round 2:
+
+Making Physics lost
+
+Students Hacking and Making (SHM) lost
+
+UMD Physics Makers 5
+
+[Si] Unit 3
+
+Alpha Team Of Makers (ATOM) 4
+
+UMD Physics Hackers 2
+
+Fine-tuners 3
+
+Total: 17
+
+
+round 3:
+
+UMD Physics Hackers lost
+
+UMD Physics Makers 7
+
+[Si] Unit 3
+
+Alpha Team Of Makers (ATOM) 4
+
+Fine-tuners 3
+
+Total: 17
+
+
+round 4:
+
+[Si] Unit lost
+
+Fine-tuners lost
+
+UMD Physics Makers 9
+
+Alpha Team Of Makers (ATOM) 6 
+
+Total: 15
+
+
+Winner: UMD Physics Makers

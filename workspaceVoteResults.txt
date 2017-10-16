@@ -1,0 +1,78 @@
+Initial vote:
+
+[Si]gma Lab 1
+
+UMD Physics Makerspace 3
+
+Vortex 4
+
+h-bar 2
+
+Physics Innovation Lab (Pi Lab) 4
+
+Atomic 1
+
+Momentum Space 2
+
+Total: 17
+
+
+round 1:
+
+[Si]gma Lab lost
+
+Atomic lost
+
+UMD Physics Makerspace 4
+
+Vortex 4
+
+h-bar 2
+
+Physics Innovation Lab (Pi Lab) 4
+
+Momentum Space 3
+
+Total: 17
+
+
+round 2:
+
+h-bar lost
+
+UMD Physics Makerspace 4
+
+Vortex 5
+
+Physics Innovation Lab (Pi Lab) 5
+
+Momentum Space 3
+
+Total: 17
+
+
+round 3:
+
+Momentum Space lost
+
+UMD Physics Makerspace 5
+
+Vortex 6
+
+Physics Innovation Lab (Pi Lab) 5
+
+Total: 16
+
+
+round 4:
+
+UMD Physics Makerspace lost
+
+Physics Innovation Lab (Pi Lab) lost
+
+Vortex 12 
+
+Total: 12
+
+
+Winner: Vortex
